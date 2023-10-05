@@ -1,0 +1,35 @@
+.list-links::before {
+    content: "•";
+    color: $primary;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.icon-shape-background {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
+}
+
+.nav-link.active {
+    .icon-shape-background {
+        background-color: $primary;
+    }
+
+    .icon-shape i {
+        color: #FFFFFF !important;
+    }
+}
+
+.form-check-input:checked[type=checkbox] {
+    background-image: linear-gradient(310deg, #344767 0%, #ffffff 100%);
+}
+
+.navbar-vertical.navbar-expand-xs {
+    z-index: 1 !important;
+}
+
+.sidebar {
+    z-index: 1 !important;
+}
